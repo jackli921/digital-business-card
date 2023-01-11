@@ -17,6 +17,9 @@ body{
     border-radius: 10px;
 }
 
+.fa-linkedin{
+    pointer-events: none;
+}
 .profile-img{
     width: 317px;
     height: 317px;
