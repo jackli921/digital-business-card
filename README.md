@@ -1,7 +1,7 @@
 # Digital Business Card
 A simple business card made using React 
 
-<!-- [Site Live](https://tiny-mochi-3e1c9c.netlify.app/) -->
+[Site Live](https://velvety-monstera-4c9d43.netlify.app/)
 
 ## Intro
 A training project built to consolidate key concepts I learned from:

@@ -554,7 +554,7 @@ function Footer() {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.default = Info;
 
@@ -565,42 +565,42 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Info() {
-    return _react2.default.createElement(
-        "div",
-        { className: "info-container" },
-        _react2.default.createElement("img", { className: "profile-img", src: "../profile_square.png" }),
-        _react2.default.createElement(
-            "h1",
-            { className: "name" },
-            "Run Qi(Jack) Li"
-        ),
-        _react2.default.createElement(
-            "p",
-            { className: "title" },
-            "Frontend Developer"
-        ),
-        _react2.default.createElement(
-            "a",
-            { className: "website", href: "keeponflowing.com" },
-            "keeponflowing.com"
-        ),
-        _react2.default.createElement(
-            "div",
-            { className: "btn-container" },
-            _react2.default.createElement(
-                "button",
-                { className: "btn-primary" },
-                _react2.default.createElement("i", { "class": "fa-solid fa-envelope" }),
-                " \xA0Email"
-            ),
-            _react2.default.createElement(
-                "button",
-                { className: "btn-primary linkedin" },
-                _react2.default.createElement("i", { "class": "fa-brands fa-linkedin" }),
-                "     \xA0LinkedIn"
-            )
-        )
-    );
+  return _react2.default.createElement(
+    "div",
+    { className: "info-container" },
+    _react2.default.createElement("img", { className: "profile-img", src: "../profile_square.png" }),
+    _react2.default.createElement(
+      "h1",
+      { className: "name" },
+      "Run Qi(Jack) Li"
+    ),
+    _react2.default.createElement(
+      "p",
+      { className: "title" },
+      "Frontend Developer"
+    ),
+    _react2.default.createElement(
+      "a",
+      { className: "website", target: "_blank", href: "https://www.keeponflowing.com" },
+      "keeponflowing.com"
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "btn-container" },
+      _react2.default.createElement(
+        "a",
+        { href: "#", target: "_blank", className: "btn-primary" },
+        _react2.default.createElement("i", { "class": "fa-solid fa-envelope" }),
+        " \xA0Email"
+      ),
+      _react2.default.createElement(
+        "a",
+        { herf: "https://www.linkedin.com/in/jackli921/", className: "btn-primary linkedin" },
+        _react2.default.createElement("i", { "class": "fa-brands fa-linkedin" }),
+        " \xA0LinkedIn"
+      )
+    )
+  );
 }
 
 /***/ }),
