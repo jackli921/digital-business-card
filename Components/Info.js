@@ -9,7 +9,7 @@ export default function Info(){
           <a className="website"  target="_blank" href="https://www.keeponflowing.com">keeponflowing.com</a>
           <div className="btn-container">
 
-              <a href="#" target="_blank" className="btn-primary">
+              <a href="#" target="_blank" className="btn-primary email">
                 <i class="fa-solid fa-envelope"></i> &nbsp;Email
               </a>
 
